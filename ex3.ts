@@ -17,6 +17,14 @@ console.log(obj);
 
 //array
 let myArray:Array<string> = ["Oran","Flanagan","bgiuwbguiab"];
+for(let j = 0; j < myArray.length; j++)
+{
+    console.log(myArray[j]);
+}
 
-let mySecondArray:number[] = [2,4,6];
-for(let i = 0; i<mySecondArray.length[i]+" is in mySecondArray");
+let mySecondArray: number[] = [2, 4, 6];
+for (let i = 0; i < mySecondArray.length; i++) 
+{
+    console.log(mySecondArray[i] + " is in mySecondArray");
+}
+

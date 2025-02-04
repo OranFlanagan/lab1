@@ -6,4 +6,6 @@ function addition(value: string)
     let secondVal: number = 1;
     let sumOfVals: string = (firstVal + secondVal).toLocaleString();
     addition(sumOfVals);
+    /*adds firstVal and secondVal and passes that answer into sumOfVals
+    toLocaleString converts the value 43 into a string so it can to be read without errors*/
     

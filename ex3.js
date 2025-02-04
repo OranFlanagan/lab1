@@ -12,6 +12,11 @@ var obj = { x: 0 };
 obj = "any variable";
 console.log(obj);
 //array
-var names = [];
-names.push("Oran");
-console.log(names);
+var myArray = ["Oran", "Flanagan", "bgiuwbguiab"];
+for (var j = 0; j < myArray.length; j++) {
+    console.log(myArray[j]);
+}
+var mySecondArray = [2, 4, 6];
+for (var i = 0; i < mySecondArray.length; i++) {
+    console.log(mySecondArray[i] + " is in mySecondArray");
+}
